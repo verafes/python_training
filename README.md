@@ -4,4 +4,5 @@ I use sites repl.it in order to create files and run them without needing to dow
 
 1. Introduction in Python.
 
-Intro Lesson #1 is added. 
+Intro Lesson #1 
+ 
