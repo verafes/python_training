@@ -28,7 +28,12 @@ print(type(b)) # returns class
 
 name = "Alice"
 print(name)
-print(type(name)) # returns class 
+print(type(name)) # returns class 'str'
+
+# Booleans are used to determine if something is true or false
+is_student = True 
+print(is_student)
+print(type(is_student)) # returns class 'bool'
 
 # Mathematical equations
 
