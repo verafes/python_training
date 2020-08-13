@@ -59,7 +59,7 @@ print(f"{a} // {b} = {int_div}")
 print(f"{a} % {b} = {reminder}")
 print(f"{a} ** {b} = {power}")
 
-div = round(a / b, 2)
+div = round(a / b, 2) #  returns a floating-point number rounded to the specified number of decimals
 print(f"{a} / {b} = {div}")
 
 price_of_toy = 27
