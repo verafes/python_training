@@ -5,11 +5,11 @@ print("My name is Vera")
 
 # Variables and mathematical equations
 
-a = 5 # a variable is created 
+a = 5 # A variable is created when it is assigned a value
 
 print(a) # should return 5 
 a = 7
-print(a) # returns new value = 7
+print(a) # returns the new value = 7
 a = a + 1
 print(a) # 7 + 1 = 8
 a +=1
