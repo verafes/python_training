@@ -8,3 +8,4 @@ Intro Lesson #1
 Intro Lesson #2
 
 Lesson #1. Variables 
+Lesson #2. Input function
