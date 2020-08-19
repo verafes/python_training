@@ -24,7 +24,7 @@ print(s[1:-1]) # ibrar
 print(s[::1]) # Library with the step 1 symbol
 print(s[::-1]) # from back to the fist symbol
 
-# Concatenating, and Joining Strings
+# Concatenating and Joining Strings
 a = "my" 
 b = "home"
 c = a + b # merge (without space) 
@@ -38,10 +38,10 @@ s = "hi" # new value for s
 print(s*10) # multiply times
 
 # Getting the index of a substring in a string.
-# monkey --> m----y
-# word = input("Enter a word: ")
-# count = len(word) - 2
-# print(word[0] + "-" * count + word[-1]) 
+monkey --> m----y
+word = input("Enter a word: ")
+count = len(word) - 2
+print(word[0] + "-" * count + word[-1]) 
 
 time = "12:20:05"
 time = "12:00:00"
