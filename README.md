@@ -12,6 +12,6 @@ Lesson #1. Variables
 
 Lesson #2. Input function
 
-Lesson #3. Strings. String indexing. 
+Lesson #3. Strings. String indexing
 
 Lesson # 4. If - else conditional expressions. Ternary Operators
