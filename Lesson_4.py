@@ -18,7 +18,7 @@ print("s" in "aueio") # will be False
 print("---- logical operators or, and, not")
 # logical operators or, and, not
 num = 32
-print(num > 9 and num < 100 ) #  all shhold be true
+print(num > 9 and num < 100 ) #  all should be true
 day = 7
 print(day == 6 or day == 7) # one of should be true
 n = 8 

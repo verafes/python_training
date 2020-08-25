@@ -18,7 +18,7 @@ print(s[-1]) # returns the same > y
 
 print(s[0:3]) # slice a part of the string,  symbol #3 does not included. Lib
 print(s[:5]) # Libra
-print(s[2:5]) # bra
+print(s[2:5]) # returns "bra"
 print(s[3:]) # from #4 to the last > rary
 print(s[1:-1]) # ibrar
 print(s[::1]) # Library with the step 1 symbol
