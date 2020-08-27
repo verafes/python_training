@@ -32,4 +32,4 @@ print(remainder == 0) #check if remainder is zero => should return False/True
 # False because reminder = 1 and does not equal zero
 
 
-https://repl.it/@verafes/Intro-Lesson-2
+
