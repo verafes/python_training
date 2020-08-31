@@ -21,7 +21,7 @@ print(last_i)
 print("\n--- Alphabetic symbol or digit")
 # isalpha() - Returns True if all characters in the string are in the alphabet
 s = "sky" # alfabetic 
-print(s.isalpha()) # return true if  all symbols are alfabetic 
+print(s.isalpha()) # return true if all symbols are alfabetic 
 s = "7up"
 print(s.isalpha()) #false
 s = "s!"
@@ -82,8 +82,8 @@ s = "my flOwErs aRe beaUtiful"
 print(s.capitalize()) # Converts the first character to upper case
 print(s.title()) # Converts the first character of each word to upper case
 print(s.lower()) # Converts a string into lower case
-print(s.upper()) # Swaps cases, lower case becomes upper case and vice versa
-print(s.swapcase()) # 	Converts a string into upper case
+print(s.upper()) # Converts a string into upper case
+print(s.swapcase()) # Swaps cases, lower case becomes upper case and vice versa
 
 print("\n--- what is start/end symbol")
 # endswith() - Returns true if the string ends with the specified value
@@ -101,15 +101,15 @@ s = "my flOwErs are beaUtiful"
 print("a" in s) # true
 print("are" in s) # true
 
-print("\n--- strip() - remove specified symbols")
+print("\n--- strip() - Returns a trimmed version of the string")
 #rstrip()	Returns a right trim version of the string
 #lstrip()	Returns a left trim version of the string
 s = " My flowers are beautiful  "
 print(s.strip()) # strip() function will remove leading and trailing whitespaces
 
-# strip() - Returns a trimmed version of the string
+# strip() - remove specified symbols
 s = "**My flowers are beautiful**"
-print(s.strip("*")) # removes "*"
+print(s.strip("*")) # removes all "*"
 print(s.rstrip("*")) # removes * at the right
 
 s = "  My flowers are beautiful  "
