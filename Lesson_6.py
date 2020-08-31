@@ -88,8 +88,7 @@ print(m)
 print(s[:-1]) # to rid of extra space
 print(s.strip())
 
-print("\n--- 1 sheep... 2 sheep... 30 sheep...")
-# "1 sheep... 2 sheep... 30 sheep..."
+print("\n--- Ptint out 1 sheep... 2 sheep... 30 sheep...")
 sh = ''
 for x in range(1,31):
   sh = sh + f"{x} sheep... " 
@@ -132,7 +131,7 @@ while x < 12:
 print(s)
 
 print("\n--- Sum 1+2+3+5+6+7+8+9+10")
-#1+2+3+5+6+7+8+9+10
+
 a= 0
 x =1
 while x <=10:
@@ -152,7 +151,7 @@ while x < 12:
   x += 1
 print(s)
 
-print("\n--- Pyramid from stars ")
+print("\n--- Print stars in Pyramid shape")
 # *
 # **
 # ***
@@ -183,7 +182,7 @@ while (x <= n):
 print(s)
 
 
-print("\n--- Pyramid from numbers 10")
+print("\n--- Print numbers 10 in Pyramid shape")
 #10
 #1010
 #...
@@ -195,7 +194,7 @@ while x <= n:
   x += 1
 print(s) 
 
-print("\n--- Pyramid from numbers")
+print("\n--- Pyramid lined up numbers")
 # 1
 # 22
 # 333
