@@ -8,6 +8,8 @@ Intro Lesson #1
 
 Intro Lesson #2
 
+2. Tutorials 
+
 Lesson #1. Variables 
 
 Lesson #2. Input function
@@ -17,3 +19,6 @@ Lesson #3. Strings. String indexing
 Lesson #4. If - else conditional expressions. Ternary Operators
 
 Lesson #5. String function and methods
+
+Lesson #6. Loops
+
