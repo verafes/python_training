@@ -209,3 +209,4 @@ for x in range(1, n+1): # n-1
   else:
     s = s + str(x) * x 
 print(s)
+
