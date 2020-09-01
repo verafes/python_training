@@ -21,46 +21,46 @@ print(last_i)
 print("\n--- Alphabetic symbol or digit")
 # isalpha() - Returns True if all characters in the string are in the alphabet
 s = "sky" # alfabetic 
-print(s.isalpha()) # return true if all symbols are alfabetic 
+print(s.isalpha()) # return True if all symbols are alfabetic 
 s = "7up"
-print(s.isalpha()) #false
+print(s.isalpha()) #False
 s = "s!"
-print(s.isalpha()) #false
+print(s.isalpha()) #False
 
 # isdigit() - Returns True if all characters in the string are digits
 s = "2020" 
-print(s.isdigit()) # true
+print(s.isdigit()) # True
 s = "20 20 " 
-print(s.isdigit()) # false for spase
+print(s.isdigit()) # False for space
 s = "20.20" 
 print(s.isdigit(), 1) # false for dot
 
 print("---")
 # isalnum() - Returns True if all characters in the string are alphanumeric
 s = "August19"
-print(s.isalnum()) # true
+print(s.isalnum()) # True
 s = "August 19"
-print(s.isalnum()) # false because of space
+print(s.isalnum()) # False because of space
 
 print("\n--- lower/upper case, titles")
 # islower() - Returns True if all characters in the string are lower case	
 s = "Aasd"
-print (s.islower()) # false
-print ("o".islower()) # true
-print (s.isupper())# false
-print ("HELLO".isupper()) # true
+print (s.islower()) # False
+print ("o".islower()) # True
+print (s.isupper())# False
+print ("HELLO".isupper()) # ttrue
 
 # istitle()	Returns True if the string follows the rules of a title
 print(s.istitle()) # true
 
-print("Sky is blue".istitle()) # false
-print("Sky Is Blue".istitle()) # true
+print("Sky is blue".istitle()) # False
+print("Sky Is Blue".istitle()) # True
 
 print("\n--- .count() - number of times a specified value")
 # count() - Returns the number of times a specified value occurs in a string
 s = "programming language"
 g = s.count("g") 
-print(g) # "g" is 4 times
+print(g) # "g" is 4 times in the string
 q = s.count("ng")
 print(q)
 
@@ -89,17 +89,17 @@ print("\n--- what is start/end symbol")
 # endswith() - Returns true if the string ends with the specified value
 s = "my flOwErs aRe beaUtiful"
 end = "beaUtiful"
-print(s.endswith("ful")) # true
-print(s.endswith(end)) # true
+print(s.endswith("ful")) # True
+print(s.endswith(end)) # True
 
 # startswith() - Returns true if the string starts with the specified value
 start = "my"
-print(s.startswith(start)) # true
+print(s.startswith(start)) # True
 
 print("\n--- in - search specified symbol(s)")
 s = "my flOwErs are beaUtiful"
-print("a" in s) # true
-print("are" in s) # true
+print("a" in s) # True
+print("are" in s) # True
 
 print("\n--- strip() - Returns a trimmed version of the string")
 #rstrip()	Returns a right trim version of the string
