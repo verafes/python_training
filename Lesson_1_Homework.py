@@ -55,7 +55,7 @@ rem1 = cash / x # reminder of 3 times less money
 print(rem1)
 div1 = round(cash / x, 2) # round off using function 
 print(div1)
-div2 = round(rem1, 2) # rounds off the difined string 
+div2 = round(rem1, 2) # rounds off the defined string 
 print(div2)
 print(f"{cash} / {x} = {div1}")
 rem2 = cash // x
@@ -77,7 +77,7 @@ print(f"{hour} hours and {minutes} minutes and {seconds} seconds are  equal {hou
 # Task #5c
 lilies_square = 120
 day = 24
-print("The water lilies area in a lake is", lilies_square, ".")
+print("The water lilies area in a lake is" + lilies_square + ".")
 print(f"The water lilies double every {day} hours.")
 print(f"So in a day, the area with water lilies in the lake will be {lilies_square * 2}.")
 
