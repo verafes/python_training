@@ -22,11 +22,11 @@ angles_sum = (n - 2) * 180
 print("Sum of Interior Angles = ", angles_sum)
 print("\n")
 
-# Task #3 - Use the input command to prompt the user for the mumber of miles. Convert this distance to kilometers and feet.
+# Task #3 - Use the input command to prompt the user for the number of miles. Convert this distance to kilometers and feet.
 miles = int(input("Enter any number of miles: "))
 print("Given number of miles: ", miles)
 km = miles * 1.60934
-print("Distance in kilometres =", round(km, 3))
+print("Distance in kilometers =", round(km, 3))
 feet = miles * 5280  
 print("Distance in feet =", feet)
 print("\n")
