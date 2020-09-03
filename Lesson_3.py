@@ -16,10 +16,10 @@ print(s[1])
 print(s[len(s)-1]) # get the last symbol > y
 print(s[-1]) # returns the same > y 
 
-print(s[0:3]) # slice a part of the string,  symbol #3 does not included. Lib
-print(s[:5]) # Libra
-print(s[2:5]) # returns "bra"
-print(s[3:]) # from #4 to the last > rary
+print(s[0:3]) # slice a part of the string, symbol #3 does not included -> 'Lib'
+print(s[:5]) # returns 'Libra'
+print(s[2:5]) # returns 'bra'
+print(s[3:]) # from #4 to the last > 'rary'
 print(s[1:-1]) # ibrar
 print(s[::1]) # Library with the step 1 symbol
 print(s[::-1]) # from back to the fist symbol
@@ -45,7 +45,7 @@ print(word[0] + "-" * count + word[-1])
 
 time = "12:20:05"
 time = "12:00:00"
-hours = int(time[:2]) # interger
+hours = int(time[:2]) # string to interger
 print (hours)
 minutes = int(time [3:5])
 print(minutes)
