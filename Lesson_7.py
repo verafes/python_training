@@ -1,4 +1,5 @@
-#Lesson 7. Strings and loops
+#Lesson #7. Strings and loops
+
 print("--- Output by index")
 s = "world"
 for i in range(len(s)):

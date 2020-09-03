@@ -22,3 +22,5 @@ Lesson #5. String function and methods
 
 Lesson #6. Loops
 
+Lesson #7. Strings and loops
+
