@@ -68,5 +68,5 @@ total_price = price_of_toy * count
 print(f"Price of {count} toys equal {total_price}")
 print(f"Price of {count} toys equal {price_of_toy * count}")
 
-https://repl.it/@verafes/Variables
+
 
