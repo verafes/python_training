@@ -62,7 +62,7 @@ for i, el in enumerate(s):
 print(t)
 
 print("--- Is it the digit in the string ")
-# есть ли в cтроке цифра
+
 s = "May 18 is a holiday"
 for elem in s:
   if elem.isdigit():
