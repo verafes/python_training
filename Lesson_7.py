@@ -49,8 +49,11 @@ s = "hello"
 for i, letter in enumerate(s):
   print(i, letter) # from 0 to end
 
-print("--- Output in Camel Case ")
-# Дана строка. Все символы строки с четными индексами сделать заглавными (uppercase), символы строки с нечетными индексами сделать строчными (lowercase).
+print("--- Output odd/even-indexed characters in alternative case")
+# Given a string. In the string, 
+# convert all even-indexed characters to uppercase 
+# and odd-indexed characters to lowercase.
+
 s = "alternate"
 t = ""
 #s[0] = s[0].upper -> error
@@ -71,7 +74,7 @@ for elem in s:
 else:
   print("No")
   
-print("--- Double each symbols exept whitesspaces and digits")
+print("--- Double each symbol except whitespaces and digits")
 st = "summer 1 or winter " 
 print(st)
 t = ""
