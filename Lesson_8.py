@@ -92,7 +92,7 @@ print(summation(-5))
 print(summation())
 #print(summation(n))
 
-print("\n---- function to calculate percent vowels")
+print("\n---- function to calculate percent vowels in a string")
 def percent_vowels(s):
   vowels = "aeuio"
   s = s.lower().replace(" ", "")

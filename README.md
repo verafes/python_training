@@ -24,3 +24,7 @@ Lesson #6. Loops
 
 Lesson #7. Strings and loops
 
+Lesson #8. Function
+
+
+
